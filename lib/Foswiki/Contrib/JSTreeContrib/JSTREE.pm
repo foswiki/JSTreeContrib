@@ -23,7 +23,8 @@ sub new {
         puburl        => '%PUBURLPATH%/%SYSTEMWEB%/JSTreeContrib',
         documentation => "$Foswiki::cfg{SystemWebName}.JSTreeContrib",
         summary       => $Foswiki::Contrib::JSTreeContrib::SHORTDESCRIPTION,
-        javascript    => ["jquery.jstree${src}.js"]
+        javascript =>
+          [ "jquery.jstree${src}.js", "jquery.jstree.init${src}.js" ]
     );
 
     return $this;

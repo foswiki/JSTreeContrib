@@ -1,27 +1,46 @@
 # Release manifest for JSTreeContrib
 data/System/JSTreeContrib.txt 0644 Documentation
 lib/Foswiki/Contrib/JSTreeContrib.pm 0644 Perl module
-lib/Foswiki/Plugins/JSTreeContribPlugin.pm 0644 Perl module
-lib/Foswiki/Contrib/JSTreeContrib/Config.spec
-lib/Foswiki/Contrib/JSTreeContrib/JSTREE.pm
+lib/Foswiki/Contrib/JSTreeContrib/Config.spec 0644
+lib/Foswiki/Contrib/JSTreeContrib/JSTREE.pm 0644
+pub/System/JSTreeContrib/Makefile 0644
 pub/System/JSTreeContrib/jquery.jstree.js 0644
+pub/System/JSTreeContrib/jquery.jstree.js.gz 0644
 pub/System/JSTreeContrib/jquery.jstree_src.js 0644
+pub/System/JSTreeContrib/jquery.jstree.init.js.gz 0644
+pub/System/JSTreeContrib/jquery.jstree.init.js 0644
+pub/System/JSTreeContrib/jquery.jstree.init_src.js 0644
+pub/System/JSTreeContrib/themes/Makefile 0644
+pub/System/JSTreeContrib/themes/apple/Makefile 0644
 pub/System/JSTreeContrib/themes/apple/bg.jpg 0644
 pub/System/JSTreeContrib/themes/apple/d.png 0644
 pub/System/JSTreeContrib/themes/apple/dot_for_ie.gif 0644
+pub/System/JSTreeContrib/themes/apple/style.css.gz 0644
 pub/System/JSTreeContrib/themes/apple/style.css 0644
+pub/System/JSTreeContrib/themes/apple/style_src.css 0644
 pub/System/JSTreeContrib/themes/apple/throbber.gif 0644
+pub/System/JSTreeContrib/themes/classic/Makefile 0644
 pub/System/JSTreeContrib/themes/classic/d.png 0644
+pub/System/JSTreeContrib/themes/classic/d.gif 0644
 pub/System/JSTreeContrib/themes/classic/dot_for_ie.gif 0644
+pub/System/JSTreeContrib/themes/classic/style.css.gz 0644
 pub/System/JSTreeContrib/themes/classic/style.css 0644
+pub/System/JSTreeContrib/themes/classic/style_src.css 0644
 pub/System/JSTreeContrib/themes/classic/throbber.gif 0644
+pub/System/JSTreeContrib/themes/default-rtl/Makefile 0644
 pub/System/JSTreeContrib/themes/default-rtl/d.gif 0644
 pub/System/JSTreeContrib/themes/default-rtl/d.png 0644
 pub/System/JSTreeContrib/themes/default-rtl/dots.gif 0644
+pub/System/JSTreeContrib/themes/default-rtl/style.css.gz 0644
 pub/System/JSTreeContrib/themes/default-rtl/style.css 0644
+pub/System/JSTreeContrib/themes/default-rtl/style_src.css 0644
 pub/System/JSTreeContrib/themes/default-rtl/throbber.gif 0644
+pub/System/JSTreeContrib/themes/default/Makefile 0644
 pub/System/JSTreeContrib/themes/default/d.gif 0644
 pub/System/JSTreeContrib/themes/default/d.png 0644
+pub/System/JSTreeContrib/themes/default/style.css.gz 0644
 pub/System/JSTreeContrib/themes/default/style.css 0644
+pub/System/JSTreeContrib/themes/default/style_src.css 0644
 pub/System/JSTreeContrib/themes/default/throbber.gif 0644
+
 

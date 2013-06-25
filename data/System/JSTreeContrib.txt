@@ -1,7 +1,5 @@
+%META:TOPICINFO{author="ProjectContributor" comment="autosave" date="1372155077" format="1.1" version="1"}%
 ---+!! !JSTreeContrib
-<!--
-   * Set SHORTDESCRIPTION = %$SHORTDESCRIPTION%
--->
 %SHORTDESCRIPTION%
 
 %TOC%
@@ -11,20 +9,76 @@ manipulation of n-ary tree data.
 
 See http://www.jstree.com for more information.
 
+---++ Usage
+
+Lists can be converted into a jsTree by wrapping it into a =.jsTree= DIV container. Any additional
+options to the widget are specified using HTML5 data-* attributes.
+
+*Example:*
+
+<verbatim class="tml">
+%JQREQUIRE{"jstree"}%
+<div class="jsTree" data-core='{"initially_open":["corporate"], "animation":100}' data-ui='{"initially_select":["industry"], "select_multiple_modifier":"on"}' >
+
+   * <a id='root'>%JQICON{"house"}% Root</a>
+      * <a id='corporate'>%JQICON{"bell"}% Corporate</a>
+         * <a>%JQICON{"chart_organisation"}% Business Structure</a>
+         * <a>%JQICON{"eye"}% Customers</a>
+         * <a>%JQICON{"telephone"}% Employee Directory</a>
+         * <a id='industry'>%JQICON{"lorry"}% Industry</a>
+         * <a>%JQICON{"anchor"}% Our Company</a>
+         * <a>%JQICON{"basket"}% Products</a>
+         * <a>%JQICON{"folder_heart"}% Services</a>
+         * <a>%JQICON{"car"}% Traveling</a>
+      * <a>%JQICON{"sitemap"}% Departments</a>
+      * <a>%JQICON{"pilcrow"}% Projects</a>
+      * <a>%JQICON{"wrench_orange"}% Tools & Services</a>
+
+</div>
+</verbatim>
+
+%JQREQUIRE{"jstree" warn="off"}%
+
+<div class="jsTree %IF{"context JSTreeEnabled" else="foswikiHidden"}%" data-core='{"initially_open":["corporate"], "animation":100}' data-ui='{"initially_select":["industry"], "select_multiple_modifier":"on"}' >
+
+   * <a id='root'>%JQICON{"house"}% Root</a>
+      * <a id='corporate'>%JQICON{"bell"}% Corporate</a>
+         * <a>%JQICON{"chart_organisation"}% Business Structure</a>
+         * <a>%JQICON{"eye"}% Customers</a>
+         * <a>%JQICON{"telephone"}% Employee Directory</a>
+         * <a id='industry'>%JQICON{"lorry"}% Industry</a>
+         * <a>%JQICON{"anchor"}% Our Company</a>
+         * <a>%JQICON{"basket"}% Products</a>
+         * <a>%JQICON{"folder_heart"}% Services</a>
+         * <a>%JQICON{"car"}% Traveling</a>
+      * <a>%JQICON{"sitemap"}% Departments</a>
+      * <a>%JQICON{"pilcrow"}% Projects</a>
+      * <a>%JQICON{"wrench_orange"}% Tools & Services</a>
+
+</div>
+
+<img class="%IF{"context JSTreeEnabled" then="foswikiHidden"}%" src="%ATTACHURLPATH%/JSTreeSnap.png" />
+
 ---++ Installation Instructions
 
 %$INSTALL_INSTRUCTIONS%
 
 ---++ Info
+<!--
+   * Set SHORTDESCRIPTION = %$SHORTDESCRIPTION%
+-->
 
 |  Author(s): | Crawford Currie http://c-dot.co.uk |
-|  Copyright: | &copy; 2011 Foswiki Contributors |
+|  Copyright: | &copy; 2011-2013 Foswiki Contributors |
 |  License: | [[http://www.gnu.org/licenses/gpl.html][GPL (Gnu General Public License)]] |
 |  Release: | %$RELEASE% |
 |  Version: | %$VERSION% |
 |  Change History: | <!-- versions below in reverse order -->&nbsp; |
+|  25 Jun 2013: | updated to latest jquery.jstree version |
 |  Dependencies: | %$DEPENDENCIES% |
 |  Home page: | http://foswiki.org/Extensions/JSTreeContrib |
 |  Support: | http://foswiki.org/Support/JSTreeContrib |
 
 <!-- Do _not_ attempt to edit this topic; it is auto-generated. -->
+
+%META:FILEATTACHMENT{name="JSTreeSnap.png" attachment="JSTreeSnap.png" attr="" comment="" date="1372155076" size="19161" user="micha" version="1"}%

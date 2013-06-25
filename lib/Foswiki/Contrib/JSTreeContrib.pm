@@ -2,10 +2,10 @@
 package Foswiki::Contrib::JSTreeContrib;
 
 use strict;
+use warnings;
 
-our $VERSION = '$Rev$';    # version of *this file*.
-our $RELEASE = '1.0.7';
-;                          # keep in synch with jquery.jstree.js
+use version; our $VERSION = version->declare("v1.0_3"); # keep in synch with jquery.jstree.js
+our $RELEASE          = '1.0_3';
 our $SHORTDESCRIPTION = 'The popular jsTree jQuery plugin, packaged for reuse';
 
 =begin TML
@@ -39,7 +39,7 @@ Author: Crawford Currie http://c-dot.co.uk
 
 Foswiki - The Free and Open Source Wiki, http://foswiki.org/
 
-Copyright (C) 2011 Foswiki Contributors. Foswiki Contributors
+Copyright (C) 2011-2013 Foswiki Contributors. Foswiki Contributors
 are listed in the AUTHORS file in the root of this distribution.
 NOTE: Please extend that file, not this notice.
 
