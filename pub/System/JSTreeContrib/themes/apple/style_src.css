@@ -59,6 +59,3 @@
 #vakata-contextmenu.jstree-apple-context li ul { margin-left:-4px; }
 
 /* TODO: IE6 support - the `>` selectors */
-
-.jsTree { visibility:hidden; }
-.jsTreeInited { visibility:visible; }

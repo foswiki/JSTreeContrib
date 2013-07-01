@@ -4,9 +4,6 @@ jQuery(function($) {
          "theme":"classic", 
          "icons": false
       }, 
-      ui: {
-         "select_multiple_modifier":"off"
-      },
       core: {
          "animation":100
       }

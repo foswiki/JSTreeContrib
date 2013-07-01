@@ -277,7 +277,7 @@
 				'.jstree > ul > li { margin-left:0px; } ' + 
 				'.jstree-rtl > ul > li { margin-right:0px; } ' + 
 				'.jstree ins { display:inline-block; text-decoration:none; width:18px; height:18px; margin:0 0 0 0; padding:0; } ' + 
-				'.jstree a { display:inline-block; line-height:16px; height:16px; color:black; white-space:nowrap; text-decoration:none; padding:1px 2px; margin:0; } ' + 
+				'.jstree a { display:inline-block; line-height:16px; height:16px; white-space:nowrap; text-decoration:none; padding:1px 2px; margin:0; } ' + 
 				'.jstree a:focus { outline: none; } ' + 
 				'.jstree a > ins { height:16px; width:16px; } ' + 
 				'.jstree a > .jstree-icon { margin-right:3px; } ' + 
@@ -1010,7 +1010,7 @@
 						event.preventDefault();
 						event.currentTarget.blur();
 						if(!$(event.currentTarget).hasClass("jstree-loading")) {
-							this.select_node(event.currentTarget, true, event);
+							this.toggle_select(event.currentTarget);
 						}
 					}, this))
 				.delegate("a", "mouseenter.jstree", $.proxy(function (event) {
@@ -1211,11 +1211,11 @@
 					this.__callback({ "obj" : obj });
 				}
 			},
-			toggle_select : function (obj) {
+			toggle_select : function (obj, check, e) {
 				obj = this._get_node(obj);
 				if(!obj.length) { return false; }
 				if(this.is_selected(obj)) { this.deselect_node(obj); }
-				else { this.select_node(obj); }
+				else { this.select_node(obj, check, e); }
 			},
 			is_selected : function (obj) { return this.data.ui.selected.index(this._get_node(obj)) >= 0; },
 			get_selected : function (context) { 
@@ -1289,7 +1289,7 @@
 						"blur" : $.proxy(function () {
 							var i = obj.children(".jstree-rename-input"),
 								v = i.val();
-							if(v === "") { v = t; }
+							if(v === "") { v = obj.attr("id"); }
 							h1.remove();
 							i.remove(); // rollback purposes
 							this.set_text(obj,t); // rollback purposes

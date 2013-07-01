@@ -75,6 +75,3 @@
 .jstree-classic .jstree-checked a .jstree-checkbox { _background-position:-38px -19px; }
 .jstree-classic .jstree-unchecked a .jstree-checkbox { _background-position:-2px -19px; }
 /* IE6 END */
-
-.jsTree { visibility:hidden; }
-.jsTreeInited { visibility:visible; }

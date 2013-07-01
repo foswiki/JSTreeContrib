@@ -1,5 +1,7 @@
 FOSWIKI_ROOT?=~/foswiki/trunk/core
-SUBDIRS=apple classic default default-rtl minimal
+TARGET=style.css
 
 -include $(FOSWIKI_ROOT)/pub/System/JQueryPlugin/Makefile.include
 
+clean:
+	rm $(TARGET) *.gz

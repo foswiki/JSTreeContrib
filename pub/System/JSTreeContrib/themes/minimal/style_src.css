@@ -1,0 +1,96 @@
+/*
+ * jsTree minimal theme 1.0
+ * Supported features: dots/no-dots, icons/no-icons, focused, loading
+ * Supported plugins: ui (hovered, clicked), checkbox, contextmenu, search
+ */
+
+.jstree-minimal li, 
+.jstree-minimal ins { background-image:url("d.png"); background-repeat:no-repeat; background-color:transparent; }
+.jstree-minimal li { background-position:-90px 0; background-repeat:repeat-y;  }
+.jstree-minimal li.jstree-last { background:transparent; }
+.jstree-minimal .jstree-open > ins { background-position:-72px 0; }
+.jstree-minimal .jstree-closed > ins { background-position:-54px 0; }
+.jstree-minimal .jstree-leaf > ins { background-position:-36px 0; }
+
+.jstree-minimal a .jstree-icon { background-position:-56px -19px; }
+.jstree-minimal .jstree-open > a .jstree-icon { background-position:-56px -36px; }
+.jstree-minimal a.jstree-loading .jstree-icon { background:url("throbber.gif") center center no-repeat !important; }
+.jstree-minimal .jstree-clicked { background:#0055b5; color:#fff; }
+
+.jstree-minimal .jstree-no-dots li, 
+.jstree-minimal .jstree-no-dots .jstree-leaf > ins { background:transparent; }
+.jstree-minimal .jstree-no-dots .jstree-open > ins { background-position:-18px 0; }
+.jstree-minimal .jstree-no-dots .jstree-closed > ins { background-position:0 0; }
+
+.jstree-minimal .jstree-no-icons a .jstree-icon { display:none; }
+
+.jstree-minimal .jstree-search { background-color:#FFFFC0; }
+.jstree-minimal .jstree-search.jstree-clicked { background:#0055b5; color:#FFFFC0; }
+
+.jstree-minimal .jstree-no-icons .jstree-checkbox { display:inline-block; }
+.jstree-minimal .jstree-no-checkboxes .jstree-checkbox { display:none !important; }
+.jstree-minimal .jstree-checked > a > .jstree-checkbox { background-position:-38px -19px; }
+.jstree-minimal .jstree-unchecked > a > .jstree-checkbox { background-position:-2px -19px; }
+.jstree-minimal .jstree-undetermined > a > .jstree-checkbox { background-position:-20px -19px; }
+.jstree-minimal .jstree-checked > a > .jstree-checkbox:hover { background-position:-38px -37px; }
+.jstree-minimal .jstree-unchecked > a > .jstree-checkbox:hover { background-position:-2px -37px; }
+.jstree-minimal .jstree-undetermined > a > .jstree-checkbox:hover { background-position:-20px -37px; }
+
+#vakata-dragged.jstree-minimal ins { 
+  background:transparent !important; 
+  margin-right:5px
+}
+#vakata-dragged.jstree-minimal .jstree-ok { background:url("d.png") -2px -53px no-repeat !important; }
+#vakata-dragged.jstree-minimal .jstree-invalid { background:url("d.png") -18px -53px no-repeat !important; }
+#jstree-marker.jstree-minimal { background:url("d.png") -41px -57px no-repeat !important; text-indent:-100px; }
+
+.jstree-minimal .jstree-locked a { cursor:default; }
+
+#vakata-contextmenu.jstree-minimal-context, 
+#vakata-contextmenu.jstree-minimal-context li ul { 
+  background:#fff; 
+  border:1px solid #c2c3c3; 
+  box-shadow:2px 2px 2px rgba(128,128,128,0.2);
+}
+#vakata-contextmenu.jstree-minimal-context li { 
+  padding:5px;
+  min-height:0;
+  line-height:16px;
+}
+#vakata-contextmenu.jstree-minimal-context a:hover, 
+#vakata-contextmenu.jstree-minimal-context .vakata-hover > a { 
+  background:#0055b5;
+}
+#vakata-contextmenu.jstree-minimal-context li a {
+  margin:-5px;
+  padding:5px;
+  line-height:16px;
+}
+#vakata-contextmenu.jstree-minimal-context li ins {
+  margin-right:5px;
+}
+#vakata-contextmenu.jstree-minimal-context li.vakata-separator { 
+  background:white; 
+  border-top:1px solid #e0e0e0; 
+  margin:0; 
+  padding:0; 
+}
+
+/* IE6 BEGIN */
+.jstree-minimal li, 
+.jstree-minimal ins,
+#vakata-dragged.jstree-minimal .jstree-invalid, 
+#vakata-dragged.jstree-minimal .jstree-ok, 
+#jstree-marker.jstree-minimal { _background-image:url("d.gif"); }
+.jstree-minimal .jstree-open ins { _background-position:-72px 0; }
+.jstree-minimal .jstree-closed ins { _background-position:-54px 0; }
+.jstree-minimal .jstree-leaf ins { _background-position:-36px 0; }
+.jstree-minimal .jstree-open a ins.jstree-icon { _background-position:-56px -36px; }
+.jstree-minimal .jstree-closed a ins.jstree-icon { _background-position:-56px -19px; }
+.jstree-minimal .jstree-leaf a ins.jstree-icon { _background-position:-56px -19px; }
+#vakata-contextmenu.jstree-minimal-context ins { _display:none; }
+#vakata-contextmenu.jstree-minimal-context li { _zoom:1; }
+.jstree-minimal .jstree-undetermined a .jstree-checkbox { _background-position:-20px -19px; }
+.jstree-minimal .jstree-checked a .jstree-checkbox { _background-position:-38px -19px; }
+.jstree-minimal .jstree-unchecked a .jstree-checkbox { _background-position:-2px -19px; }
+/* IE6 END */
