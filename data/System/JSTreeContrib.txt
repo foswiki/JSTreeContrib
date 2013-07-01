@@ -74,6 +74,7 @@ options to the widget are specified using HTML5 data-* attributes.
 |  Release: | %$RELEASE% |
 |  Version: | %$VERSION% |
 |  Change History: | <!-- versions below in reverse order -->&nbsp; |
+|  01 Jul 2013: | added a new minimal theme; fixed tree-nodes not being deselectable |
 |  25 Jun 2013: | updated to latest jquery.jstree version |
 |  Dependencies: | %$DEPENDENCIES% |
 |  Home page: | http://foswiki.org/Extensions/JSTreeContrib |
