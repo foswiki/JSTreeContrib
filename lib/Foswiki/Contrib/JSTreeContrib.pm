@@ -4,8 +4,8 @@ package Foswiki::Contrib::JSTreeContrib;
 use strict;
 use warnings;
 
-use version; our $VERSION = version->declare("v1.0_3"); # keep in synch with jquery.jstree.js
-our $RELEASE          = '1.0_3';
+our $VERSION          = '1.03';
+our $RELEASE          = '1.03';
 our $SHORTDESCRIPTION = 'The popular jsTree jQuery plugin, packaged for reuse';
 
 =begin TML
