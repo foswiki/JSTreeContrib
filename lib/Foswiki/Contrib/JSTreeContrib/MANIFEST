@@ -44,9 +44,9 @@ pub/System/JSTreeContrib/themes/default/style_src.css 0644
 pub/System/JSTreeContrib/themes/default/throbber.gif 0644
 pub/System/JSTreeContrib/themes/minimal/throbber.gif 0644
 pub/System/JSTreeContrib/themes/minimal/dot_for_ie.gif 0644
+pub/System/JSTreeContrib/themes/minimal/style.css.gz 0644
+pub/System/JSTreeContrib/themes/minimal/style.css 0644
 pub/System/JSTreeContrib/themes/minimal/style_src.css 0644
 pub/System/JSTreeContrib/themes/minimal/d.gif 0644
 pub/System/JSTreeContrib/themes/minimal/d.png 0644
 pub/System/JSTreeContrib/themes/minimal/Makefile 0644
-
-

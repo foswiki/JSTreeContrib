@@ -69,11 +69,12 @@ options to the widget are specified using HTML5 data-* attributes.
 -->
 
 |  Author(s): | Crawford Currie http://c-dot.co.uk |
-|  Copyright: | &copy; 2011-2013 Foswiki Contributors |
+|  Copyright: | &copy; 2011-2014 Foswiki Contributors |
 |  License: | [[http://www.gnu.org/licenses/gpl.html][GPL (Gnu General Public License)]] |
 |  Release: | %$RELEASE% |
 |  Version: | %$VERSION% |
 |  Change History: | <!-- versions below in reverse order -->&nbsp; |
+|  18 Mar 2014: | package minified and compressed css as well |
 |  01 Jul 2013: | added a new minimal theme; fixed tree-nodes not being deselectable |
 |  25 Jun 2013: | updated to latest jquery.jstree version |
 |  Dependencies: | %$DEPENDENCIES% |
