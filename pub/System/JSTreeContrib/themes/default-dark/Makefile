@@ -5,3 +5,8 @@ TARGET=style.css
 
 clean:
 	rm $(TARGET) *.gz
+
+ifneq (,$(wildcard ../../git))
+style_src.js: ../../git/dist/themes/default-dark/style.css
+	cp $^ $@
+endif

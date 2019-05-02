@@ -4,34 +4,9 @@ package Foswiki::Contrib::JSTreeContrib;
 use strict;
 use warnings;
 
-our $VERSION          = '1.04';
-our $RELEASE          = '1.04';
+our $VERSION          = '2.00';
+our $RELEASE          = '02 May 2019';
 our $SHORTDESCRIPTION = 'The popular jsTree jQuery plugin, packaged for reuse';
-
-=begin TML
-
-Call this from any other extension to include this plugin. For example,
-<verbatim>
-require Foswiki::Contrib::JSTreeContrib;
-Foswiki::Contrib::JSTreeContrib::init();
-</verbatim>
-
-=cut
-
-sub init {
-    unless (
-        Foswiki::Plugins::JQueryPlugin::registerPlugin(
-            'JSTree', 'Foswiki::Contrib::JSTreeContrib::JSTREE'
-        )
-      )
-    {
-        die 'Failed to register JSTree plugin';
-    }
-    unless ( Foswiki::Plugins::JQueryPlugin::createPlugin("JSTree") ) {
-        die 'Failed to create JSTree plugin';
-    }
-    return 1;
-}
 
 1;
 __END__
@@ -39,7 +14,7 @@ Author: Crawford Currie http://c-dot.co.uk
 
 Foswiki - The Free and Open Source Wiki, http://foswiki.org/
 
-Copyright (C) 2011-2014 Foswiki Contributors. Foswiki Contributors
+Copyright (C) 2011-2019 Foswiki Contributors. Foswiki Contributors
 are listed in the AUTHORS file in the root of this distribution.
 NOTE: Please extend that file, not this notice.
 

@@ -1,6 +1,6 @@
-%META:TOPICINFO{author="ProjectContributor" comment="autosave" date="1372155077" format="1.1" version="1"}%
+%META:TOPICINFO{author="micha" comment="autosave" date="1487847048" format="1.1" version="2"}%
 ---+!! !JSTreeContrib
-%SHORTDESCRIPTION%
+%FORMFIELD{"Description"}%
 
 %TOC%
 
@@ -60,27 +60,25 @@ options to the widget are specified using HTML5 data-* attributes.
 <img class="%IF{"context JSTreeEnabled" then="foswikiHidden"}%" src="%ATTACHURLPATH%/JSTreeSnap.png" />
 
 ---++ Installation Instructions
-
 %$INSTALL_INSTRUCTIONS%
 
----++ Info
-<!--
-   * Set SHORTDESCRIPTION = %$SHORTDESCRIPTION%
--->
+---++ Dependencies
+%$DEPENDENCIES%
 
-|  Author(s): | Crawford Currie http://c-dot.co.uk |
-|  Copyright: | &copy; 2011-2014 Foswiki Contributors |
-|  License: | [[http://www.gnu.org/licenses/gpl.html][GPL (Gnu General Public License)]] |
-|  Release: | %$RELEASE% |
-|  Version: | %$VERSION% |
-|  Change History: | <!-- versions below in reverse order -->&nbsp; |
+---++ Change History
+|  02 May 2019: | update to latest jsTree version |
 |  18 Mar 2014: | package minified and compressed css as well |
 |  01 Jul 2013: | added a new minimal theme; fixed tree-nodes not being deselectable |
 |  25 Jun 2013: | updated to latest jquery.jstree version |
-|  Dependencies: | %$DEPENDENCIES% |
-|  Home page: | http://foswiki.org/Extensions/JSTreeContrib |
-|  Support: | http://foswiki.org/Support/JSTreeContrib |
 
-<!-- Do _not_ attempt to edit this topic; it is auto-generated. -->
-
+%META:FORM{name="PackageForm"}%
+%META:FIELD{name="Author" title="Author" value="Crawford Currie http://c-dot.co.uk"}%
+%META:FIELD{name="Version" title="Version" value="%25$VERSION%25"}%
+%META:FIELD{name="Release" title="Release" value="%25$RELEASE%25"}%
+%META:FIELD{name="Description" title="Description" value="%25$SHORTDESCRIPTION%25"}%
+%META:FIELD{name="Repository" title="Repository" value="https://github.com/foswiki/%25TOPIC%25"}%
+%META:FIELD{name="Copyright" title="Copyright" value="&copy; 2011-2019 Foswiki Contributors"}%
+%META:FIELD{name="License" title="License" value="[[http://www.gnu.org/licenses/gpl.html][GPL (Gnu General Public License)]]"}%
+%META:FIELD{name="Home" title="Home" value="https://foswiki.org/Extensions/JSTreeContrib"}%
+%META:FIELD{name="Support" title="Support" value="https://foswiki.org/Support/JSTreeContrib"}%
 %META:FILEATTACHMENT{name="JSTreeSnap.png" attachment="JSTreeSnap.png" attr="" comment="" date="1372155076" size="19161" user="ProjectContributor" version="1"}%
