@@ -1,4 +1,4 @@
-%META:TOPICINFO{author="micha" comment="autosave" date="1487847048" format="1.1" version="2"}%
+%META:TOPICINFO{author="ProjectContributor" comment="" date="1556790782" format="1.1" version="1"}%
 ---+!! !JSTreeContrib
 %FORMFIELD{"Description"}%
 
@@ -81,4 +81,4 @@ options to the widget are specified using HTML5 data-* attributes.
 %META:FIELD{name="License" title="License" value="[[http://www.gnu.org/licenses/gpl.html][GPL (Gnu General Public License)]]"}%
 %META:FIELD{name="Home" title="Home" value="https://foswiki.org/Extensions/JSTreeContrib"}%
 %META:FIELD{name="Support" title="Support" value="https://foswiki.org/Support/JSTreeContrib"}%
-%META:FILEATTACHMENT{name="JSTreeSnap.png" attachment="JSTreeSnap.png" attr="" comment="" date="1372155076" size="19161" user="ProjectContributor" version="1"}%
+%META:FILEATTACHMENT{name="JSTreeSnap.png" attachment="JSTreeSnap.png" attr="" comment="" date="1556790782" size="19161" user="ProjectContributor" version="1"}%
