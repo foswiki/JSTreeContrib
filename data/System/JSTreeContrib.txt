@@ -66,18 +66,19 @@ options to the widget are specified using HTML5 data-* attributes.
 %$DEPENDENCIES%
 
 ---++ Change History
+|  26 Oct 2020: | updated to jsTree-3.3.8, patched in jquery-3 compatibility |
 |  02 May 2019: | update to latest jsTree version |
 |  18 Mar 2014: | package minified and compressed css as well |
 |  01 Jul 2013: | added a new minimal theme; fixed tree-nodes not being deselectable |
 |  25 Jun 2013: | updated to latest jquery.jstree version |
 
 %META:FORM{name="PackageForm"}%
-%META:FIELD{name="Author" title="Author" value="Crawford Currie http://c-dot.co.uk"}%
+%META:FIELD{name="Author" title="Author" value="Crawford Currie http://c-dot.co.uk, Michael Daum"}%
 %META:FIELD{name="Version" title="Version" value="%25$VERSION%25"}%
 %META:FIELD{name="Release" title="Release" value="%25$RELEASE%25"}%
 %META:FIELD{name="Description" title="Description" value="%25$SHORTDESCRIPTION%25"}%
 %META:FIELD{name="Repository" title="Repository" value="https://github.com/foswiki/%25TOPIC%25"}%
-%META:FIELD{name="Copyright" title="Copyright" value="&copy; 2011-2019 Foswiki Contributors"}%
+%META:FIELD{name="Copyright" title="Copyright" value="&copy; 2011-2020 Foswiki Contributors"}%
 %META:FIELD{name="License" title="License" value="[[http://www.gnu.org/licenses/gpl.html][GPL (Gnu General Public License)]]"}%
 %META:FIELD{name="Home" title="Home" value="https://foswiki.org/Extensions/JSTreeContrib"}%
 %META:FIELD{name="Support" title="Support" value="https://foswiki.org/Support/JSTreeContrib"}%

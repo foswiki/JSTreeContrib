@@ -15,8 +15,8 @@ jQuery(function($) {
 
    $(".jsTree").livequery(function() {
       var $this = $(this),
-          opts = $.extend(true, {}, defaults, $this.data());
-         
+          opts = $.extend({}, defaults, $this.data());
+
       // shortcuts
       if (typeof(opts.coreTheme) !== 'undefined') {
         opts.core.themes.name = opts.coreTheme;

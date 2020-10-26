@@ -14,6 +14,7 @@ git:
 ifneq (,$(wildcard git))
 jstree.uncompressed.js: git/dist/jstree.js
 	cp $^ $@
+	patch < jstree.patch
 endif
 
 pkg.uncompressed.js: $(PKG_SOURCE)
