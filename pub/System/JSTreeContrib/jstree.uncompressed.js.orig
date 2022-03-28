@@ -3146,7 +3146,7 @@
 			if(this._data.core.last_clicked && !this._data.core.last_clicked.state.selected) { this._data.core.last_clicked = null; }
 			if(!this._data.core.last_clicked && this._data.core.selected.length) { this._data.core.last_clicked = this.get_node(this._data.core.selected[this._data.core.selected.length - 1]); }
 
-		        if(!this.settings.core.multiple && ((!e.metaKey && !e.ctrlKey && !e.shiftKey) || (e.shiftKey && (!this._data.core.last_clicked || !this.get_parent(obj) || this.get_parent(obj) !== this._data.core.last_clicked.parent ) ))) {
+			if(!this.settings.core.multiple || (!e.metaKey && !e.ctrlKey && !e.shiftKey) || (e.shiftKey && (!this._data.core.last_clicked || !this.get_parent(obj) || this.get_parent(obj) !== this._data.core.last_clicked.parent ) )) {
 				if(!this.settings.core.multiple && (e.metaKey || e.ctrlKey || e.shiftKey) && this.is_selected(obj)) {
 					this.deselect_node(obj, false, e);
 				}
@@ -7593,11 +7593,7 @@
 				else {
 					a = $.extend({}, a);
 					if(!a.data) { a.data = {}; }
-					if($.isFunction(a.data)) {
-						a.data = a.data.call(this, str);
-					} else {
-                                          a.data.str = str;
-                                        }
+					a.data.str = str;
 					if(inside) {
 						a.data.inside = inside;
 					}

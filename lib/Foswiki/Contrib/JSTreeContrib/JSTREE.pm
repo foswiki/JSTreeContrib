@@ -12,7 +12,7 @@ sub new {
 
     my $this = $class->SUPER::new(
         name     => 'JSTree',
-        version  => '3.3.8',                                  # upstream version
+        version  => '3.3.11',                                 # upstream version
         author   => 'Ivan Bozhanov',
         homepage => 'http://www.jstree.com',
         puburl   => '%PUBURLPATH%/%SYSTEMWEB%/JSTreeContrib',
@@ -29,7 +29,7 @@ sub new {
 __END__
 Foswiki - The Free and Open Source Wiki, http://foswiki.org/
 
-Copyright (C) 2011-2020 Foswiki Contributors. Foswiki Contributors
+Copyright (C) 2011-2022 Foswiki Contributors. Foswiki Contributors
 are listed in the AUTHORS file in the root of this distribution.
 NOTE: Please extend that file, not this notice.
 
