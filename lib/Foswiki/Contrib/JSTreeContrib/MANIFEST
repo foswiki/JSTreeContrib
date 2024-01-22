@@ -5,8 +5,10 @@ lib/Foswiki/Contrib/JSTreeContrib/DEPENDENCIES 0644
 lib/Foswiki/Contrib/JSTreeContrib/JSTREE.pm 0644
 lib/Foswiki/Contrib/JSTreeContrib.pm 0644
 pub/System/JSTreeContrib/jstree.init.uncompressed.js 0644
+pub/System/JSTreeContrib/jstree.patch 0644
 pub/System/JSTreeContrib/JSTreeSnap.png 0644
 pub/System/JSTreeContrib/jstree.uncompressed.js 0644
+pub/System/JSTreeContrib/jstree.uncompressed.js.orig 0644
 pub/System/JSTreeContrib/Makefile 0644
 pub/System/JSTreeContrib/pkg.js 0644
 pub/System/JSTreeContrib/pkg.js.gz 0644
@@ -25,6 +27,15 @@ pub/System/JSTreeContrib/themes/default/style.css 0644
 pub/System/JSTreeContrib/themes/default/style.css.gz 0644
 pub/System/JSTreeContrib/themes/default/style_src.css 0644
 pub/System/JSTreeContrib/themes/default/throbber.gif 0644
+pub/System/JSTreeContrib/themes/foswiki/32px.png 0644
+pub/System/JSTreeContrib/themes/foswiki/40px.png 0644
+pub/System/JSTreeContrib/themes/foswiki/Makefile 0644
+pub/System/JSTreeContrib/themes/foswiki/style.css 0644
+pub/System/JSTreeContrib/themes/foswiki/style.css.gz 0644
+pub/System/JSTreeContrib/themes/foswiki/style_src.css 0644
+pub/System/JSTreeContrib/themes/foswiki/throbber.gif 0644
+pub/System/JSTreeContrib/themes/foswiki/throbber.png 0644
+pub/System/JSTreeContrib/themes/foswiki/throbber-white.png 0644
 pub/System/JSTreeContrib/themes/Makefile 0644
 pub/System/JSTreeContrib/themes/minimal/32px.png 0644
 pub/System/JSTreeContrib/themes/minimal/40px.png 0644

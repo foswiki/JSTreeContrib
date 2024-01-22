@@ -8672,7 +8672,7 @@ jQuery(function($) {
          "animation":100,
          "multiple": false,
          "themes": {
-             "name": "minimal", 
+             "name": "foswiki", 
              "icons": false,
              "url": true,
              "dir": foswiki.getPubUrl("System", "JSTreeContrib", "themes")

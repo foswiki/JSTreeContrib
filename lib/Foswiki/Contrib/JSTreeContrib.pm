@@ -4,8 +4,8 @@ package Foswiki::Contrib::JSTreeContrib;
 use strict;
 use warnings;
 
-our $VERSION          = '3.10';
-our $RELEASE          = '28 Mar 2022';
+our $VERSION          = '3.20';
+our $RELEASE          = '%$RELEASE%';
 our $SHORTDESCRIPTION = 'The popular jsTree jQuery plugin, packaged for reuse';
 
 1;
@@ -14,7 +14,7 @@ Author: Crawford Currie http://c-dot.co.uk
 
 Foswiki - The Free and Open Source Wiki, http://foswiki.org/
 
-Copyright (C) 2011-2022 Foswiki Contributors. Foswiki Contributors
+Copyright (C) 2011-2024 Foswiki Contributors. Foswiki Contributors
 are listed in the AUTHORS file in the root of this distribution.
 NOTE: Please extend that file, not this notice.
 

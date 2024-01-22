@@ -66,6 +66,7 @@ options to the widget are specified using HTML5 data-* attributes.
 %$DEPENDENCIES%
 
 ---++ Change History
+|  22 Jan 2024: | added foswiki theme with a dark and light color scheme |
 |  28 Mar 2022: | updated to jsTree-3.3.11 |
 |  26 Oct 2020: | updated to jsTree-3.3.8, patched in jquery-3 compatibility |
 |  02 May 2019: | update to latest jsTree version |
@@ -79,7 +80,7 @@ options to the widget are specified using HTML5 data-* attributes.
 %META:FIELD{name="Release" title="Release" value="%25$RELEASE%25"}%
 %META:FIELD{name="Description" title="Description" value="%25$SHORTDESCRIPTION%25"}%
 %META:FIELD{name="Repository" title="Repository" value="https://github.com/foswiki/%25TOPIC%25"}%
-%META:FIELD{name="Copyright" title="Copyright" value="&copy; 2011-2022 Foswiki Contributors"}%
+%META:FIELD{name="Copyright" title="Copyright" value="&copy; 2011-2024 Foswiki Contributors"}%
 %META:FIELD{name="License" title="License" value="[[http://www.gnu.org/licenses/gpl.html][GPL (Gnu General Public License)]]"}%
 %META:FIELD{name="Home" title="Home" value="https://foswiki.org/Extensions/JSTreeContrib"}%
 %META:FIELD{name="Support" title="Support" value="https://foswiki.org/Support/JSTreeContrib"}%
