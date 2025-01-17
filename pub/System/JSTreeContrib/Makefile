@@ -1,21 +1,21 @@
 FOSWIKI_ROOT?=~/foswiki/trunk/core
-TARGET=pkg.js
+TARGET=build/pkg.js
 SUBDIRS=themes
-PKG_SOURCE=jstree.uncompressed.js jstree.init.uncompressed.js
+PKG_SOURCE=lib/jstree.js src/jstree.init.js
 
 -include $(FOSWIKI_ROOT)/pub/System/JQueryPlugin/Makefile.include
 
 clean:
-	rm $(TARGET) *.gz
+	rm -f build/*
 
 git:
 	git clone https://github.com/vakata/jstree.git $@
 
 ifneq (,$(wildcard git))
-jstree.uncompressed.js: git/dist/jstree.js
+lib/jstree.js: git/dist/jstree.js
 	cp $^ $@
-	patch < jstree.patch
+	cd lib && patch < ../jstree.patch
 endif
 
-pkg.uncompressed.js: $(PKG_SOURCE)
-	cat $^ > $@
+build/pkg.js: $(PKG_SOURCE)
+	$(JSMIN) $^ > $@
