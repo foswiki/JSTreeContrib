@@ -1,5 +1,5 @@
 FOSWIKI_ROOT?=~/foswiki/trunk/core
-TARGET=build/pkg.js
+TARGET=build build/pkg.js
 SUBDIRS=themes
 PKG_SOURCE=lib/jstree.js src/jstree.init.js
 
@@ -7,6 +7,9 @@ PKG_SOURCE=lib/jstree.js src/jstree.init.js
 
 clean:
 	rm -f build/*
+
+build:
+	@mkdir build
 
 git:
 	git clone https://github.com/vakata/jstree.git $@

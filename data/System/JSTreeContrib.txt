@@ -1,4 +1,4 @@
-%META:TOPICINFO{author="ProjectContributor" comment="" date="1737111602" format="1.1" version="1"}%
+%META:TOPICINFO{author="ProjectContributor" comment="" date="1758734093" format="1.1" version="1"}%
 ---+!! !JSTreeContrib
 %FORMFIELD{"Description"}%
 
@@ -66,6 +66,7 @@ options to the widget are specified using HTML5 data-* attributes.
 %$DEPENDENCIES%
 
 ---++ Change History
+|  24 Sep 2025: | updated to jsTree-3.3.17 |
 |  17 Jan 2025: | reorganized css and js structure |
 |  05 Mar 2024: | updated to jsTree-3.3.16 |
 |  22 Jan 2024: | added foswiki theme with a dark and light color scheme |
@@ -86,4 +87,4 @@ options to the widget are specified using HTML5 data-* attributes.
 %META:FIELD{name="License" title="License" value="[[http://www.gnu.org/licenses/gpl.html][GPL (Gnu General Public License)]]"}%
 %META:FIELD{name="Home" title="Home" value="https://foswiki.org/Extensions/JSTreeContrib"}%
 %META:FIELD{name="Support" title="Support" value="https://foswiki.org/Support/JSTreeContrib"}%
-%META:FILEATTACHMENT{name="JSTreeSnap.png" attachment="JSTreeSnap.png" attr="" comment="" date="1737111602" size="19161" user="ProjectContributor" version="1"}%
+%META:FILEATTACHMENT{name="JSTreeSnap.png" attachment="JSTreeSnap.png" attr="" comment="" date="1758734093" size="19161" user="ProjectContributor" version="1"}%

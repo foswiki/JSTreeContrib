@@ -12,7 +12,7 @@ sub new {
 
     my $this = $class->SUPER::new(
         name     => 'JSTree',
-        version  => '3.3.16',                  # upstream version
+        version  => '3.3.17',                  # upstream version
         author   => 'Ivan Bozhanov',
         homepage => 'http://www.jstree.com',
         puburl        => '%PUBURLPATH%/%SYSTEMWEB%/JSTreeContrib/build',
