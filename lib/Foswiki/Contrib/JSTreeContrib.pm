@@ -4,7 +4,7 @@ package Foswiki::Contrib::JSTreeContrib;
 use strict;
 use warnings;
 
-our $VERSION          = '3.21';
+our $VERSION          = '3.22';
 our $RELEASE          = '%$RELEASE%';
 our $SHORTDESCRIPTION = 'The popular jsTree jQuery plugin, packaged for reuse';
 
